@@ -22,7 +22,7 @@ class Settings(BaseSettings):
     ALGORITHM:str   
     
     
-    model_config = SettingsConfigDict(env_file=('.env.prod', '.env'),extra='ignore',from_attributes=True)
+    model_config = SettingsConfigDict(env_file=('.env.prod', '.env'),extra='ignore')
 
 
 settings = Settings()

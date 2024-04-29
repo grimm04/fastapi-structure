@@ -1,10 +1,7 @@
 # FastAPI Structure
 
 ![coverage](https://img.shields.io/badge/coverage-93%25-darkgreen)  
-
-This rest api is a kind of ERP of car shop.  
-App is available on cloud by https://car-shop-fastapi.herokuapp.com/docs.
-
+ 
 ## Requirements
 You'll must have installed:
 - [Python 3.9+](https://www.python.org/downloads/)
@@ -118,7 +115,7 @@ git push heroku master
 
 - [SQL Relational Database SQLAlchemy by FastAPI](https://fastapi.tiangolo.com/tutorial/sql-databases/?h=databa#sql-relational-databases)
 
-- [SQLAlchemy 1.4](https://docs.sqlalchemy.org/en/14/tutorial/engine.html)  
+- [SQLAlchemy 2.0](https://docs.sqlalchemy.org/en/14/tutorial/engine.html)  
 
 - [FastAPI "Real world example app"](https://github.com/nsidnev/fastapi-realworld-example-app)  
 
