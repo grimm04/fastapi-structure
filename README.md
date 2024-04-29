@@ -94,7 +94,7 @@ __Deploy__
 instead make manual deploy from Heroku Cli, like below**  
 ```
 heroku login
-heroku git:remote -a car-shop-fastapi
+heroku git:remote -a fastapi-structure
 git add .
 git commit -m "Deploy on heroku"
 git push origin master
