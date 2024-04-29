@@ -1,0 +1,17 @@
+# Use grimm/grimm123 user/password credentials
+version: '3.1'
+
+services:   
+
+  db:
+    image: postgres:alpine3.14
+    ports:
+      - 5433:5432
+    environment:
+      POSTGRES_USER: grimm
+      POSTGRES_PASSWORD: grimm123
+
+  adminer:
+    image: adminer
+    ports:
+      - 9000:8080
